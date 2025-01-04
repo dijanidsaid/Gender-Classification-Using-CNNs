@@ -32,3 +32,12 @@ The model predicts the gender of a given facial image:
 Example:
 ```bash
 Prediction for image 'content/male_faces/1 (10).png': Male
+## Dataset
+
+The dataset used for this project is the **Male and Female Faces Dataset**, which is available on Kaggle. It contains facial images labeled by gender (male or female) and is used to train the model for gender classification based on facial features.
+
+- **Source**: [Male and Female Faces Dataset on Kaggle](https://www.kaggle.com/datasets/ashwingupta3012/male-and-female-faces-dataset)
+
+You can download the dataset from the above link and use it for training and testing the model.
+
+
