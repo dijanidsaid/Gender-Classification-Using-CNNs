@@ -19,7 +19,12 @@ This project implements a **Convolutional Neural Network (CNN)** for gender clas
 - `model_testing.ipynb`: Used to test the trained model with new images.
 - `cnn_preprocessor.py`: A module for preprocessing images using CNN features.
 - `model_parameters.pkl`: Serialized file containing trained model parameters.
+## Dataset
 
+The dataset used for this project is the **Male and Female Faces Dataset**, which is available on Kaggle. It contains facial images labeled by gender (male or female) and is used to train the model for gender classification based on facial features.
+
+- **Source**: [Male and Female Faces Dataset on Kaggle](https://www.kaggle.com/datasets/ashwingupta3012/male-and-female-faces-dataset)
+- You can download the dataset from the above link and use it for training and testing the model.
 ## Sample Result
 
 The model predicts the gender of a given facial image:
@@ -32,12 +37,8 @@ The model predicts the gender of a given facial image:
 Example:
 ```bash
 Prediction for image 'content/male_faces/1 (10).png': Male
-## Dataset
 
-The dataset used for this project is the **Male and Female Faces Dataset**, which is available on Kaggle. It contains facial images labeled by gender (male or female) and is used to train the model for gender classification based on facial features.
 
-- **Source**: [Male and Female Faces Dataset on Kaggle](https://www.kaggle.com/datasets/ashwingupta3012/male-and-female-faces-dataset)
 
-You can download the dataset from the above link and use it for training and testing the model.
 
 
