@@ -14,11 +14,7 @@ This project implements a **Convolutional Neural Network (CNN)** for gender clas
 - **Pickle**: To save and load trained model parameters.
 - **Jupyter Notebook**: For project development and visualization.
 
-## File Structure
-- `model_training.ipynb`: Contains the training code and saves the model parameters.
-- `model_testing.ipynb`: Used to test the trained model with new images.
-- `cnn_preprocessor.py`: A module for preprocessing images using CNN features.
-- `model_parameters.pkl`: Serialized file containing trained model parameters.
+
 ## Dataset
 
 The dataset used for this project is the **Male and Female Faces Dataset**, which is available on Kaggle. It contains facial images labeled by gender (male or female) and is used to train the model for gender classification based on facial features.
